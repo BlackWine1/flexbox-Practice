@@ -1,0 +1,192 @@
+* {
+  padding: 0px;
+  margin: 0%;
+}
+
+.upper {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../image/Car.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center {
+  width: 80vw;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  align-items: center;
+  color: white;
+}
+
+header b span {
+  color: orangered;
+  font-size: larger;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35vw;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+
+nav a:hover {
+  color: orangered;
+}
+
+.row1 {
+  width: 100%;
+  height: 40vh;
+  margin-top: 100px;
+}
+
+.row1 h1 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+.row1 p {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 8px;
+}
+
+.colos {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  margin-top: 10px;
+  background-color: orangered ;
+  height: 55px;
+  width: 55px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: dashed 1px white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid white;
+}
+
+.line {
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  margin: 0px 8px;
+}
+
+span {
+  color: white;
+}
+.row1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.now {
+  width: 55vw;
+}
+
+.center .form {
+  background-color: white;
+  height: 60vh;
+  width: 30vw;
+}
+.form {
+  padding: 20px;
+}
+.node {
+  display: flex;
+}
+.form input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 35px;
+  padding-left: 5px;
+  border: 1px solid #ddd;
+}
+.form button {
+  margin-top: 5px;
+  border: none;
+  color: white;
+  background-color: orangered;
+  width: 102%;
+  height: 40px;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom{
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selectboss{
+  display: flex;
+  align-items: center;
+}
+.select{
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  margin-right: 20px;
+}
+.select label{
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+.select select{
+  color: #918888;
+  width: 15vw;
+  padding: 12px;
+}
+.bottom button{
+  color: white;
+  background-color: orangered;
+  width: 12vw;
+  height: 6.5vh;
+  border: none;
+  margin-top: 32px;
+  font-size: 18px;
+}
+.service{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: orangered;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
